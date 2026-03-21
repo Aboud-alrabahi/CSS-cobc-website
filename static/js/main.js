@@ -28,3 +28,18 @@ function handleClick(event) {
     event.preventDefault();
     console.log('Button clicked');
 }
+
+// Additional functions can be added here as needed
+
+// variables
+let btn1 = document.getElementById('btn_p1');
+let btn2 = document.getElementById('btn_p2');
+
+let p1 = document.getElementById('first_event_p')
+let p2 = document.getElementById('second_event_p')
+
+function btnShowp1() {
+    p1.style.display = 'block';
+    p2.style.display = 'none';
+}
+
