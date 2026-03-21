@@ -120,6 +120,32 @@ body {
     height: auto;
 }
 
+/* Events styling */
+#events_section, #past_events_section, #future_events_section{
+    padding: 80px 40px;
+    text-align: center;
+    border: #0b0d1a solid 1px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: Georgia, serif;
+
+}
+
+#events_section p, #past_events_section p, #future_events_section p{
+    color: white;
+    /*grid display*/
+}
+
+.event_cell{
+    background: #0b0d1a;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+
 /* Responsive */
 @media (max-width: 900px) {
     .hero {
@@ -134,12 +160,6 @@ body {
         width: 250px;
     }
 }
-
-
-
-
-
-
 
 /* MISSION & VISION SECTION */
 .mission-vision {
@@ -256,7 +276,7 @@ html, body {
 }
 
 /* SKILL SECTION */
-.skill-section {
+.skill-section{
     max-width: 900px;
     margin: 80px auto;
     padding: 0 20px;
@@ -470,3 +490,4 @@ copyright {
  margin-top: 40px;
  opacity: 0.7;
 }
+
